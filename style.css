@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-color:black;
+    height: 100vh;
+}
+/* hearder */
+header{
+    background-color:#2a3439bf ;
+    box-shadow: 0px 5px 20px blue;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(20px);
+}
+.head{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    justify-content: space-around;
+}
+.nav_left{
+    background-color:transparent;
+    margin: 10px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows:auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0;
+}
+.sighn{
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background-color: blue;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.search{
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_left input{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+.nav_left svg{
+    position: absolute;
+    width: 20px;
+    background-color: blue;
+    width: 38px;
+    border-radius: 10px;
+    left:366px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav_right{
+    background-color:transparent;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.nav_right img{
+    width: 100px;
+}
+.nav_list_group{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-right: 30px;
+}
+.nav_list{
+    color: white;
+}
+/* main */
+main{
+    margin-top: 10rem;
+}
+.main_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+.main_nav_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 17% 70% 11%;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.main_left{
+    background-color:#2A3439;
+    height: 600px;
+    border-radius: 20px;
+}
+.main_center{
+    background-color:#2A3439;
+    height: 600px;
+    border-radius: 20px;
+}
+.main_right{
+    background-color: #2A3439;
+    height: 600px;
+    border-radius: 20px;
+}
